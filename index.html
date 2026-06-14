@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teach_ing4u - Learning Hub</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#0b1020;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:40px 20px;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+}
+
+.logo{
+    width:180px;
+    border-radius:50%;
+    margin-bottom:15px;
+    box-shadow:0 0 25px rgba(0,255,255,.3);
+}
+
+h1{
+    font-size:3rem;
+    background:linear-gradient(to right,#00e5ff,#d946ef);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.tagline{
+    color:#cbd5e1;
+    margin-top:10px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin:50px 0 25px;
+    font-size:2rem;
+    color:#38bdf8;
+}
+
+.card{
+    background:#111827;
+    border:1px solid #334155;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:25px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 20px rgba(56,189,248,.25);
+}
+
+.card h3{
+    color:#f8fafc;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#cbd5e1;
+    margin-bottom:15px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 22px;
+    border:none;
+    border-radius:8px;
+    text-decoration:none;
+    background:linear-gradient(90deg,#06b6d4,#d946ef);
+    color:white;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    opacity:.9;
+    transform:scale(1.03);
+}
+
+.roadmap{
+    text-align:center;
+}
+
+.roadmap img{
+    width:100%;
+    max-width:900px;
+    border-radius:15px;
+    border:3px solid #334155;
+}
+
+footer{
+    margin-top:50px;
+    text-align:center;
+    padding:25px;
+    background:#020617;
+    color:#94a3b8;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.highlight{
+    color:#22d3ee;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <!-- CHANNEL LOGO -->
+    <img src="teach_ing4u.png" alt="Teach_ing4u Logo" class="logo">
+
+    <h1>Teach_ing4u</h1>
+
+    <p class="tagline">
+        Learn • Grow • Succeed
+    </p>
+
+</header>
+
+<div class="container">
+
+    <!-- ROADMAP SECTION -->
+    <h2 class="section-title">🚀 AI Engineer Roadmap</h2>
+
+    <div class="card roadmap">
+
+        <img src="AIEngineer_Roadmap.jpg" alt="AI Engineer Roadmap">
+
+        <br><br>
+
+        <h3>Complete AI Engineer Roadmap</h3>
+
+        <p>
+            Follow this roadmap from Python → Mathematics → Data Analysis →
+            Machine Learning → Deep Learning → NLP → Generative AI →
+            AI Agents → MLOps → Deployment.
+        </p>
+
+        <a href="AIEngineer_Roadmap.jpg" download class="btn">
+            Download Roadmap Image
+        </a>
+
+    </div>
+
+    <!-- PDF SECTION -->
+
+    <h2 class="section-title">📚 Free Resources & PDFs</h2>
+
+    <div class="grid">
+
+        <!-- PDF 1 -->
+        <div class="card">
+            <h3>Top 50 AI Engineer Interview Questions & Answers</h3>
+
+            <p>
+                Complete AI Engineer interview preparation handbook
+                covering Machine Learning, Deep Learning, LLMs,
+                Prompt Engineering, RAG, Agents and more.
+            </p>
+
+            <a href="Top_50_AI_Engineer_Answers.pdf"
+               download
+               class="btn">
+               Download PDF
+            </a>
+        </div>
+
+        <!-- PDF 2 -->
+        <div class="card">
+            <h3>Python Complete Notes</h3>
+
+            <p>
+                Beginner-friendly Python notes covering Variables,
+                Data Types, Loops, Functions, OOP, File Handling,
+                Interview Questions and Advanced Topics.
+            </p>
+
+            <a href="python_notes.pdf"
+               download
+               class="btn">
+               Download PDF
+            </a>
+        </div>S
+
+        <!-- PDF 3 -->
+        <div class="card">
+            <h3>Python Interview Handbook - Part 1</h3>
+
+            <p>
+                Interview-focused explanations for Python basics,
+                OOP, Functions, Modules, File Handling,
+                Exception Handling and Advanced Concepts.
+            </p>
+
+            <a href="Python_Interview_Handbook_Part1_Full.pdf"
+               download
+               class="btn">
+               Download PDF
+            </a>
+        </div>
+
+        <!-- FILE 4 -->
+        <div class="card">
+            <h3>Python To-Do List App Source Code</h3>
+
+            <p>
+                Console-based To-Do List Application using Python.
+                Includes Add, View, Complete and Delete Task features.
+            </p>
+
+            <a href="todo_list_app.txt"
+               download
+               class="btn">
+               Download Source Code
+            </a>
+        </div>
+
+    </div>
+
+    <!-- ABOUT SECTION -->
+
+    <h2 class="section-title">🌟 About Teach_ing4u</h2>
+
+    <div class="card">
+
+        <p>
+            Welcome to <span class="highlight">@teach_ing4u</span>.
+            This platform helps students and freshers learn
+            Python, Data Science, Machine Learning,
+            Artificial Intelligence, Generative AI and
+            Interview Preparation through easy-to-understand
+            notes, roadmaps and practical resources.
+        </p>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Teach_ing4u | Learn • Grow • Succeed
+</footer>
+
+</body>
+</html>
